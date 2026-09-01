@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       CEM Mobile App
  * Description:       Mobile app page shell, PWA install, notifications, and attendee notes for Convention Event Manager.
- * Version:           1.2.8
+ * Version:           1.2.9
  * Requires at least: 6.4
  * Requires PHP:      8.2
  * Requires Plugins:  convention-event-manager
@@ -15,7 +15,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'CMA_VERSION', '1.2.8' );
+define( 'CMA_VERSION', '1.2.9' );
 define( 'CMA_FILE', __FILE__ );
 define( 'CMA_PATH', plugin_dir_path( __FILE__ ) );
 define( 'CMA_URL', plugin_dir_url( __FILE__ ) );

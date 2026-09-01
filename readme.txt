@@ -4,7 +4,7 @@ Tags: cem, mobile, pwa, notifications
 Requires at least: 6.4
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.2.8
+Stable tag: 1.2.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,9 @@ Optional add-on to Convention Event Manager. Provides the attendee `/app` experi
 4. Deactivate the legacy Mobile App Page Shell and SEPA Attendee Notes plugins when you are ready.
 
 == Changelog ==
+
+= 1.2.9 =
+* Session detail modal on /app schedule stacks above the app header and bottom nav so close controls work on iPhone with CEM 0.18.4+
 
 = 1.2.8 =
 * WordPress can update this plugin from the GitHub repository after you push a new version.

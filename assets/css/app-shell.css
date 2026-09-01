@@ -433,3 +433,12 @@ body.cma-app-page #wpadminbar {
 		box-shadow: none;
 	}
 }
+
+/* CEM session detail modal — must sit above app chrome when moved to body */
+body.cma-app-page .cem-session-modal {
+	z-index: 10050;
+}
+
+body.cma-app-page .modal-backdrop.show {
+	z-index: 10040;
+}
