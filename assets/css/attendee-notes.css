@@ -1,0 +1,373 @@
+.sepa-attendee-notes-wrap {
+	overflow-x: auto;
+	background: #fff;
+	border-radius: 12px;
+	padding: 0.75rem;
+}
+
+.sepa-attendee-auth-card {
+	background: #fff;
+	border-radius: 12px;
+	padding: 1rem;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+	margin-bottom: 1rem;
+}
+
+.sepa-attendee-auth-card h3 {
+	margin: 0 0 0.35rem;
+}
+
+.sepa-attendee-auth-card p {
+	margin: 0 0 0.85rem;
+	color: #5f6b76;
+}
+
+.sepa-attendee-auth-form {
+	background: #f8fafc;
+	border: 1px solid #e5ebf0;
+	border-radius: 10px;
+	padding: 0.85rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.sepa-attendee-auth-form h4 {
+	margin: 0 0 0.35rem;
+	font-size: 1rem;
+}
+
+.sepa-attendee-auth-form label {
+	font-size: 0.84rem;
+	font-weight: 600;
+}
+
+.sepa-attendee-auth-form input {
+	width: 100%;
+}
+
+.sepa-attendee-auth-form--email {
+	max-width: 28rem;
+}
+
+.sepa-attendee-auth-hint {
+	margin: 0.15rem 0 0;
+	font-size: 0.84rem;
+	color: #5f6b76;
+	line-height: 1.4;
+}
+
+.sepa-attendee-wp-login-iframe {
+	width: 100%;
+	height: 70vh;
+	max-height: 85vh;
+	min-height: 280px;
+	border: 0;
+	border-radius: 10px;
+	background: #fff;
+}
+
+.sepa-attendee-auth-form--login #sepa-attendee-wp-loginform .lostpassword {
+	display: none !important;
+}
+
+.sepa-attendee-wp-loginform-wrap #sepa-attendee-wp-loginform input {
+	width: 100%;
+}
+
+.sepa-attendee-wp-loginform-wrap #sepa-attendee-wp-loginform .button-primary {
+	background: #0a58ca;
+	border-color: #0a58ca;
+}
+
+.sepa-attendee-turnstile-wrap {
+	margin-top: 0.45rem;
+	margin-bottom: 0.35rem;
+}
+
+.sepa-attendee-auth-form button {
+	margin-top: 0.55rem;
+	margin-bottom: 0.4rem;
+}
+
+.sepa-attendee-auth-help-link {
+	margin: 0.1rem 0 0;
+	font-size: 0.86rem;
+}
+
+.sepa-attendee-lost-password-toggle {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: #0a58ca;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 0.86rem;
+}
+
+.sepa-attendee-lost-password-panel {
+	margin-top: 0.25rem;
+	padding-top: 0.4rem;
+	border-top: 1px dashed #d8e0e8;
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.sepa-attendee-auth-message {
+	padding: 0.6rem 0.7rem;
+	border-radius: 8px;
+	font-size: 0.92rem;
+	margin-bottom: 0.75rem;
+}
+
+.sepa-attendee-auth-message--error {
+	background: #fff1f0;
+	color: #b42318;
+	border: 1px solid #f8c9c4;
+}
+
+.sepa-attendee-auth-message--success {
+	background: #ecfdf3;
+	color: #027a48;
+	border: 1px solid #b7ebc5;
+}
+
+.sepa-attendee-notes-toolbar {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-bottom: 0.75rem;
+}
+
+.sepa-attendee-notes-toolbar label {
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.sepa-attendee-notes-search {
+	max-width: 320px;
+}
+
+.sepa-attendee-notes-company,
+.sepa-attendee-notes-note-status {
+	max-width: 220px;
+}
+
+.sepa-attendee-notes-export {
+	margin-left: auto;
+}
+
+.sepa-attendee-notes-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.sepa-attendee-notes-table th,
+.sepa-attendee-notes-table td {
+	padding: 0.5rem 0.625rem;
+	border-bottom: 1px solid #e6e6e6;
+	vertical-align: middle;
+}
+
+.sepa-attendee-notes-table th {
+	font-size: 0.84rem;
+	white-space: nowrap;
+}
+
+.sepa-attendee-notes-table td {
+	font-size: 0.95rem;
+}
+
+.sepa-attendee-first-name-cell {
+	white-space: nowrap;
+}
+
+.sepa-attendee-note-check {
+	display: inline-block;
+	width: 0.95em;
+	margin-left: 0.35rem;
+	color: #1f9d55;
+	font-size: 1.08em;
+	font-weight: 900;
+	line-height: 1;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(0.9);
+	-webkit-text-stroke: 0.45px currentColor;
+}
+
+.sepa-attendee-note-check.is-visible {
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1);
+}
+
+.sepa-attendee-notes-table th.is-sortable {
+	cursor: pointer;
+	user-select: none;
+}
+
+.sepa-attendee-notes-table th.is-sorted-asc::after {
+	content: " \2191";
+}
+
+.sepa-attendee-notes-table th.is-sorted-desc::after {
+	content: " \2193";
+}
+
+.sepa-attendee-notes-table .sepa-notes-cell {
+	text-align: center;
+	width: 58px;
+}
+
+.sepa-attendee-note-trigger {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background: #eef4f8;
+	border: 1px solid #d3e0ea;
+	border-radius: 999px;
+	cursor: pointer;
+	font-size: 1.15rem;
+	color: #2a4d69;
+}
+
+.sepa-attendee-note-trigger .dashicons {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+
+.sepa-attendee-note-modal[hidden] {
+	display: none !important;
+}
+
+.sepa-attendee-note-modal {
+	position: fixed;
+	inset: 0;
+	z-index: 99999;
+}
+
+.sepa-attendee-note-modal__backdrop {
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.45);
+}
+
+.sepa-attendee-note-modal__dialog {
+	position: relative;
+	background: #fff;
+	width: min(680px, calc(100vw - 2rem));
+	margin: 8vh auto 0;
+	border-radius: 10px;
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+
+.sepa-attendee-note-modal__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.85rem 1rem;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.sepa-attendee-note-modal__close {
+	font-size: 1.25rem;
+	line-height: 1;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+}
+
+.sepa-attendee-note-modal__content {
+	padding: 1rem;
+}
+
+.sepa-attendee-note-modal__attendee {
+	margin: 0 0 0.25rem;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.sepa-attendee-note-modal__company {
+	margin: 0 0 0.75rem;
+	color: #5f6b76;
+	font-size: 0.92rem;
+}
+
+.sepa-attendee-note-modal__textarea {
+	width: 100%;
+	min-height: 180px;
+	resize: vertical;
+}
+
+.sepa-attendee-note-modal__feedback {
+	margin: 0.5rem 0 0;
+	font-size: 0.92rem;
+	color: #2a4d69;
+}
+
+.sepa-attendee-note-modal__feedback.is-error {
+	color: #b42318;
+}
+
+.sepa-attendee-note-modal__actions {
+	display: flex;
+	gap: 0.5rem;
+	padding: 0 1rem 1rem;
+}
+
+@media (max-width: 640px) {
+	.sepa-attendee-notes-toolbar {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.sepa-attendee-notes-wrap {
+		padding: 0.5rem;
+		border-radius: 10px;
+	}
+
+	.sepa-attendee-notes-toolbar label {
+		width: 100%;
+		margin-top: 0.25rem;
+	}
+
+	.sepa-attendee-notes-search,
+	.sepa-attendee-notes-company,
+	.sepa-attendee-notes-note-status,
+	.sepa-attendee-notes-export {
+		width: 100%;
+		max-width: none;
+	}
+
+	.sepa-attendee-notes-export {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.sepa-attendee-notes-table th,
+	.sepa-attendee-notes-table td {
+		padding: 0.45rem 0.35rem;
+		font-size: 0.88rem;
+	}
+
+	.sepa-attendee-note-modal__dialog {
+		width: calc(100vw - 1rem);
+		margin: 3vh auto 0;
+	}
+
+	.sepa-attendee-note-modal__actions {
+		flex-direction: column;
+	}
+
+	.sepa-attendee-note-modal__actions .button {
+		width: 100%;
+		justify-content: center;
+	}
+}
